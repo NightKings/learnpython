@@ -8,7 +8,7 @@ def read_line():
     return lines
 def connect():
     try:
-        conn = pymysql.connect(host = '192.168.0.212',user = 'root',passwd='19970815',port = 3306,use_unicode=True)
+        conn = pymysql.connect(host = '192.168.0.212',user = 'root',passwd='XXXX',port = 3306,use_unicode=True)
         cur = conn.cursor()
     except:
         raise EOFError('Error')
